@@ -1,0 +1,68 @@
+:root {
+    --font-16: 16px;
+    --font-14: 14px;
+    --font-13: 13px;
+    --font-12: 12px;
+    --font-10: 10px;
+    --font-9: 9px;
+    --font-8: 8px;
+    --font-7: 7px;
+    --font-6: 6px;
+  
+    --Roboto: "Roboto", sans-serif;
+    
+    --text-color-black: #000000;
+    --color-aksen-yellow: #F69400;
+    --color-primary-white: #FFFFFF;
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbarhome{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    background-color: var(--color-primary-white);
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+}
+.navbarhomefixed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.navhome--logo img{
+    height: 33px;
+    width: auto;
+}
+.navhome--fitur{
+    display: flex;
+}
+
+.navhome--fitur p{
+    font-size: var(--font-12);
+    font-style: var(--Roboto);
+    padding: 10px;
+}
+
+.navhome--fitur .garis{
+    color: var(--color-aksen-yellow);
+}
+
+/* section */
+.galeri img{
+    width: 155px;
+    height: auto;
+}
+.galeri{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/* navbar bawah */
